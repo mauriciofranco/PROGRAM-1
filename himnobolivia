@@ -1,0 +1,30 @@
+//c++//
+#include "stdafx.h"
+#include "iostream"
+#include "conio.h"
+
+using namespace std;
+
+void main()
+{
+	cout<<"HimnoBolivia"<<endl;
+	cout<<"Bolivianos el hado propicio"<<endl;
+	cout<<"corono nuestros votos y anhelo"<<endl;
+	cout<<"es ya libre, ya libre este suelo"<<endl;
+	cout<<"ya ceso su servil condicion"<<endl;
+	getch();
+}
+
+//pseudocodigo//
+
+Proceso HOLAMUNDO
+	Escribir "HimnoBolivia"
+	Escribir "Bolivianos el hado propicio"
+    Escribir "corono nuestros votos y anhelos"
+	Escribir "coronó nuestros votos y anhelos"
+    Escribir "es ya libre, ya libre este suelo"
+	Escribir "ya cesó su servil condición"
+    
+	
+	
+FinProceso
