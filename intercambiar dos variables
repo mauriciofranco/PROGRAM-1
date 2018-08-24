@@ -1,0 +1,31 @@
+//visual c++//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+using namespace std;
+int main()
+{ 
+int A,B,aux;
+cin>>A;
+cin>>B;
+aux=A;
+A=B;
+B=aux;
+cout<<"el valor de A es. "<<A<<endl;
+cout<<"el valor de B es: "<<B<<endl;
+getch();
+
+
+//pseudocodigo
+Proceso intercambio
+	Leer A
+	Leer B
+	aux<-A
+	A<-B
+	B<-aux
+	Escribir "El valor de a es:" ,A
+	Escribir "El valor de b es:" ,B
+	
+FinProceso
