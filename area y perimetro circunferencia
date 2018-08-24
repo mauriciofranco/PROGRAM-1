@@ -18,12 +18,13 @@ void main()
 	getch();
   
   //pseudocodigo//
-  Proceso PerimetroCircunferencia
+Proceso PerimetroCircunferencia
 	Escribir "escribir el radio de la circunferencia"
 	Leer r
 	area<-3.1416*r*r
 	Escribir "area de la circunferencia"
 	Escribir area
+	Escribir "perimetro circunferencia"
 	perimetro<-2*3.1416*r
 	Escribir perimetro
 FinProceso
