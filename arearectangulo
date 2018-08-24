@@ -1,0 +1,27 @@
+//visual c++//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+using namespace std;
+void main()
+{
+	float b,h,area;
+	cout <<"ingresar base"<<endl;
+	cin>>b;
+	cout<<"ingresar altura";
+	cin>>h;
+	area=b*h,
+	cout<<"area del rectangulo="<<area;
+	getch();
+}
+
+//pseint//
+Proceso arearectangulo
+	Leer b
+	Leer h
+	area<-b*h
+	Escribir area
+	
+FinProceso
