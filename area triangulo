@@ -1,0 +1,18 @@
+//visual c++//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+void main()
+{ 
+	double b,h;
+cout<< "ingresar base"<<endl;
+cin>>b;
+cout<< "ingresar altura"<<endl;
+cin>>h;
+double area;
+area=(b*h)/2;
+cout<<"area del triangulo="<<area;
+  getch();
+}
