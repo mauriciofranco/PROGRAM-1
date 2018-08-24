@@ -1,0 +1,25 @@
+//visual c++//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+using namespace std;
+void main()
+{
+	float r,area;
+	cout <<"ingresar radio"<<endl;
+	cin>>r;
+	cout<<endl;
+	area=3.14*(pow(r,2)),
+	cout<<"area de la circunferencia="<<area;
+	getch();
+}
+
+//pseint//
+Proceso areacircunferencia
+	Leer r
+	area<-3.14*r*r
+	Escribir area
+	
+FinProceso
