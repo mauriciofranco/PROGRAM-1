@@ -16,3 +16,12 @@ area=(b*h)/2;
 cout<<"area del triangulo="<<area;
   getch();
 }
+
+//pseudocodigo//
+Proceso areatriangulo
+	Leer b
+	Leer h
+	area<-b*h/2
+	Escribir area
+	
+FinProceso
