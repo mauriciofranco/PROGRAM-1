@@ -16,6 +16,7 @@ B=aux;
 cout<<"el valor de A es. "<<A<<endl;
 cout<<"el valor de B es: "<<B<<endl;
 getch();
+}
 
 
 //pseudocodigo
