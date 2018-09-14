@@ -1,0 +1,31 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+void main()
+{
+	float a,b,c,x1,x2;
+	cout<<"ingresar variable a: ";
+	cin>>a;
+	cout<<"ingresar variable b: ";
+	cin>>b;
+	cout<<"ingresar variable c: ";
+	cin>>c;
+	
+	if((b*b)-(4*a*c)==0)
+	cout<<"su ecuacion tiene una unica solucion real y es: "<<endl;
+	if((b*b)-(4*a*c)>0)
+	cout<<"su ecuacion tiene dos soluciones reales y son: "<<endl;
+	if((b*b)-(4*a*c)<0)
+	cout<<"su ecuacion no tiene solucion real "<<endl;
+
+	if ((b*b)-(4*a*c)>=0)
+	{
+		x1= (-1*(b)+sqrt((b*b)-(4*a*c)))/(2*a);
+		cout<<"x1 es igual a: "<<x1<<endl;
+		x2= (-1*(b)-sqrt((b*b)-(4*a*c)))/(2*a);
+		cout<<"x2 es igual a: "<<x2<<endl;
+	}
+	getch();
+}
