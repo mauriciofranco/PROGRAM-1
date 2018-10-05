@@ -1,0 +1,35 @@
+c++
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include <string.h>
+
+using namespace std;
+void main()
+{
+	int edad;
+	char  r,n;
+	do {
+	cout << "Ingrese la edad del usuario"<<endl;
+	cin >> edad;
+	if (edad >= 18)
+		{cout << "¿El usuario tiene antecedentes penales?"<<endl;
+		cin >> r;
+		if (r== 'n')
+		{ cout << "El usuario es boliviano?"<<endl;
+		  cin >> r;
+		  if (r=='s')
+			  cout << "El usuario puede votar en municipal y nacional"<<endl;
+		  else { cout << "El usuario solo puede votar en municipal";
+		  }
+		}
+		else cout << "no puede votar";
+	}
+	else cout << "no puede votar";
+	cout << "¿Desea continual?" << endl;
+	cin >> n;
+	}
+	while (n=='s');
+	getch();
+}
